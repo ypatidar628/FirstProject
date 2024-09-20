@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins", sans-serif;
+
+}
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #e5e5fd;
+    border: 20px solid #1d1e4c;
+    width: 80%;
+    text-overflow: clip;
+    padding: 20px;
+}
+
+.img{
+    position: relative;
+    width: 350px;
+    height: 420px;
+    border-radius: 47% 47% 47% 47%;
+    margin: 60px;
+}
+ .name{
+    font-size: 4em;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    right: 100px;
+    bottom: 200px;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+.dob{
+    font-size: 2em;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    right: 100px;
+    bottom: 200px;
+        font-style: italic;
+
+}
+.details{
+    position: relative;
+    font-size: 5em;
+    letter-spacing: 1px;
+    justify-content:inherit;
+    display: flex;
+    left: 50px;
+}
+.detailsP{
+    position: relative;
+    font-size: 20px;
+    justify-content:inherit;
+    margin-left: 50px;
+    padding: 4px;
+    font-style: italic;
+}
+.bio{
+    position: relative;
+    font-size: 3em;
+    letter-spacing: 1px;
+    justify-content:inherit;
+    display: flex;
+    left: 50px; 
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.list{
+    font-size: 20px;
+    position: relative;
+    left: 70px; 
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-style: italic;
+}
+.readmore{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    top: 30px;
+    margin-bottom: 50px;
+    font-family: "poppins", sans-serif;
+}
+.readmore .link{
+    font-size: 20px;
+    color: blue;
+    text-decoration: none;
+}
